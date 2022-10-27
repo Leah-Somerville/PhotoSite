@@ -1,0 +1,29 @@
+/* Importing a google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+body{
+    background-color: #2a453a;
+}
+img{
+    /* 90px / 4 = 22.5% */
+    width: 22.5%;
+    /* 10% / 8 = 1.25% */
+    margin: 1.25%;
+    /* The float CSS property places an element on the left or right side of its container/element allowing text or Inline/Inline-block elements to wrap around it. The element is removed form the normal document flow. Also, removes the space between imgage elements. */
+    float: left;
+    
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* VW sets the font;/text size based on the width of the viewport(AKA Browser window) */
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: 5px solid #658578;
+    padding-bottom: 10px;
+    /* Width between two images + image */
+    width: 47.5%;
+    /* margin auto centers the p element horizontally inside of the body element */
+    margin: auto;
+}
